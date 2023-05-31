@@ -47,6 +47,11 @@ main {
     justify-content: center;
     padding: 80px 150px;
 }
+main strong{
+    color: red;
+    font-weight: bolder;
+    margin-right: 5px;
+}
 
 .vetrina-img img {
     position: absolute;
@@ -104,10 +109,30 @@ footer {
     background-color: rgb(30, 30, 30);
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
+    padding: 25px 120px;
+    /*display: flex;
+    justify-content:space-between ;*/
+     min-width: 1400px;
+    width: 100%;
+
 }
 
 footer ul li a {
     text-decoration: none;
     color: white;
+    margin-right: 10px;
+    line-height: 35px;
+}
+
+ul.info{
+   display: flex;
+   list-style: none;
+}
+
+.container-foot{
+    display: flex;
+    justify-content: space-between;
+        }
+.info{
+    width: 25%px;
 }
