@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 1400px;
+}
+header{
+    background-color: orange;
+    padding: 10px 120px 10px 120px;
+
+}
+
+.nav-top{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+.nav-top a{
+    font-size: 18px;
+    text-decoration: none;
+    min-width: 15%;
+    color: white;
+    padding: 10px 20px 10px 20px;
+
+}
+.nav-top div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    min-width: 120px;
+    width:25%;
+}
