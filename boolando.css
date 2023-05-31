@@ -1,25 +1,28 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     min-width: 1400px;
 
 }
-header{
+
+header {
     background-color: orange;
     padding: 10px 120px 10px 120px;
 
 }
 
-.nav-top{
+.nav-top {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     align-items: center;
 
 }
-.nav-top a{
+
+.nav-top a {
     font-size: 18px;
     text-decoration: none;
     min-width: 15%;
@@ -27,53 +30,77 @@ header{
     padding: 0px 10px 0px 10px;
 
 }
-.nav-top div:nth-child(2){
+
+.nav-top div:nth-child(2) {
     display: flex;
     justify-content: center;
 }
-#logo{
+
+#logo {
     min-width: 120px;
-    width:25%;
+    width: 25%;
 }
-main{
+
+main {
     display: flex;
     flex-wrap: wrap;
-    justify-content:end;
-    height: 1800px ;
-    /*padding-left: 150px;
-    padding-right: 150px;*/
+    justify-content: center;
+    /*height: 1800px ;*/
+    padding: 25px 150px;
+
+
 }
-.vetrina-img img{
+
+.vetrina-img img {
     position: absolute;
-
-    width: 350px;
-
+    width: 400px;
 }
-.vetrina-img{
-    display: flex;
+
+.vetrina-img {
     position: relative;
-    flex-wrap: nowrap;
-    margin:5px 10px 10px 10px;
-    width: 30%;
+    width: 400px;
+    height: 630px;
+    margin: 20px 5px;
 }
-.banners{
+
+.banners {
     position: absolute;
     bottom: 100px;
     color: white;
-    display:flex;
+    display: flex;
 }
-.sustainibility{
+
+.sustainibility {
     background-color: green;
 }
-.sconto{
+
+.sconto {
     background-color: crimson;
 }
-.sustainibility, .sconto{
+
+.sustainibility,
+.sconto {
     margin: 0px 8px 0px 0px;
 }
 
-.bottom-overlay{
+.bottom-overlay {
     flex-wrap: wrap;
     position: absolute;
-    bottom:110px;
+    bottom: 0px;
+}
+
+.fa-solid.fa-heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.vetrina-img:hover .img-2{
+    display:none ;
+}
+
+/*non funziona il cuore*/
+.like.fa-solid.fa-heart:hover{
+    color: red;
+    
 }
