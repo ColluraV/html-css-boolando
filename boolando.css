@@ -5,6 +5,7 @@
 }
 body{
     min-width: 1400px;
+
 }
 header{
     background-color: orange;
@@ -23,7 +24,7 @@ header{
     text-decoration: none;
     min-width: 15%;
     color: white;
-    padding: 10px 20px 10px 20px;
+    padding: 0px 10px 0px 10px;
 
 }
 .nav-top div:nth-child(2){
@@ -33,4 +34,46 @@ header{
 #logo{
     min-width: 120px;
     width:25%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    height: 1800px ;
+    /*padding-left: 150px;
+    padding-right: 150px;*/
+}
+.vetrina-img img{
+    position: absolute;
+
+    width: 350px;
+
+}
+.vetrina-img{
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    margin:5px 10px 10px 10px;
+    width: 30%;
+}
+.banners{
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    display:flex;
+}
+.sustainibility{
+    background-color: green;
+}
+.sconto{
+    background-color: crimson;
+}
+.sustainibility, .sconto{
+    margin: 0px 8px 0px 0px;
+}
+
+.bottom-overlay{
+    flex-wrap: wrap;
+    position: absolute;
+    bottom:110px;
 }
